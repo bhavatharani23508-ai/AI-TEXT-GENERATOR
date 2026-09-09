@@ -1,0 +1,39 @@
+# AI Text Generator
+
+## Project Overview
+
+AI Text Generator is a web-based application that generates text based on a user-provided prompt. The application uses the GPT-Neo 125M pre-trained language model from EleutherAI through the Hugging Face Transformers library.
+
+The application provides a simple and interactive interface built with Streamlit, allowing users to enter a prompt and receive AI-generated text.
+
+## Features
+
+- User-friendly text input interface
+- AI-based text generation
+- Pre-trained GPT-Neo 125M language model
+- Interactive web interface using Streamlit
+- Configurable text generation parameters
+- Real-time generation of text based on user prompts
+
+## Technologies Used
+
+- Python
+- Streamlit
+- Hugging Face Transformers
+- PyTorch
+- GPT-Neo 125M
+
+## Model Used
+
+**Model:** EleutherAI GPT-Neo 125M
+
+GPT-Neo is a transformer-based language model developed by EleutherAI. It can generate natural-language text by predicting the continuation of a given prompt.
+
+## Project Structure
+
+```text
+AI-TEXT-GENERATOR/
+│
+├── app.py
+├── README.md
+└── venv/
